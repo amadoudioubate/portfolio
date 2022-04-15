@@ -1,7 +1,7 @@
 
 nav {
     position: relative;
-    height: 70px;
+    /* height: 70px; */
     flex: 0 0 80%;
 }
 
@@ -31,17 +31,17 @@ nav {
 
 .list-items a {
     color: #fff;
-    font-size: 20px;
+    /* font-size: 18px; */
 }
 
 .nav-btn {
     display: block;
     position: absolute;
-    top: 18px;
-    right: 18px;
+    top: 16px;
+    right: 40px;
     padding: 5px;
-    color: #000;
-    font-size: 18px;
+    color: #fff;
+    font-size: 32px;
 }
 
 @media screen and (min-width:992px) {

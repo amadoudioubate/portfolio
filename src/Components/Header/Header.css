@@ -2,14 +2,16 @@ header {
     position: fixed;
     top:0;
     width: 100%;
+    height: 70px;
     background: linear-gradient(45deg,rgb(156, 14, 156), midnightblue); 
-    /* display: flex;
-    justify-content: space-between;    */
+    display: flex;
+    justify-content: space-between;   
+    /* padding: 0 1rem; */
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     header {
         display: flex;
         justify-content: space-between;
     }
-}
+} */

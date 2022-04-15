@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import './NavBar.css'
 
 
@@ -44,7 +46,11 @@ function NavBar() {
                     </li>
                 </ul>  
             }
-            <button className="nav-btn" onClick={changeToggle}>BNT</button>
+            {
+                toggle ? <FontAwesomeIcon icon={faXmark} className="nav-btn" onClick={changeToggle} /> 
+                : <FontAwesomeIcon icon={faBars} className="nav-btn" onClick={changeToggle} />
+            }
+            
         </nav>
     );
 };
