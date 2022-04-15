@@ -1,0 +1,13 @@
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%; 
+    margin-left: 1rem;
+}
+
+.logo-title {
+    font-size: 3rem;
+    text-shadow: 1px 3px 8px rgba(0,0,0,0.8);
+    color: #efefef;
+}
