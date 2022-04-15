@@ -64,6 +64,24 @@ nav {
 
     .list-items a {
         font-size: 22px;
+        display: inline-block;
+        padding: 0.5rem;
+        border-radius: 3px;
+    }
+
+    .list-items a::after {
+        content: "";
+        display: block;
+        margin: 5px auto 0 auto;
+        width: 0px;
+        height: 2px;
+        background: #aaa;
+        border-radius: 2px;
+        transition: width 0.2s ease-in-out ;
+    }
+
+    .list-items a:hover::after {
+        width: 100% ;
     }
 
     .nav-btn {
