@@ -70,4 +70,7 @@ nav {
         display: none;
     }
 
+    .active-link {
+        background: rgb(0, 60, 255);
+    }
 }

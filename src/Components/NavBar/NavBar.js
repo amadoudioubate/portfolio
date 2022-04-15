@@ -31,16 +31,16 @@ function NavBar() {
                         <NavLink to="/" className={({isActive}) => isActive ? "active-link" : ""}>Acceuil</NavLink>
                     </li>
                     <li className="list-items">
-                        <NavLink to="" className={({isActive}) => isActive ? "active-link" : ""}>À propos de moi</NavLink>
+                        <NavLink to="/skills" className={({isActive}) => isActive ? "active-link" : ""}>À propos de moi</NavLink>
                     </li>
                     <li className="list-items">
-                        <NavLink to="" className={({isActive}) => isActive ? "active-link" : ""}>Réalisations</NavLink>
+                        <NavLink to="/services" className={({isActive}) => isActive ? "active-link" : ""}>Réalisations</NavLink>
                     </li>
                     <li className="list-items">
-                        <NavLink to="" className={({isActive}) => isActive ? "active-link" : ""}>Compétences</NavLink>
+                        <NavLink to="/competences" className={({isActive}) => isActive ? "active-link" : ""}>Compétences</NavLink>
                     </li>
                     <li className="list-items">
-                        <NavLink to="" className={({isActive}) => isActive ? "active-link" : ""}>Contact</NavLink>
+                        <NavLink to="/contact" className={({isActive}) => isActive ? "active-link" : ""}>Contact</NavLink>
                     </li>
                 </ul>  
             }
