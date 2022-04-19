@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 import Home from './Pages/Home';
+import Loading from './Components/Loading/Loading';
+import Header from "./Components/Header/Header";
 import './App.css';
 
+
 function App() {
-  
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000)
+  }, [])
   
   return (
-    <main className='container-main'>
-      <Home/>
-    </main>
+    <div className='App'>
+      <Header/>
+      {
+        isLoading ? <Loading/> : <Home />
+      } 
+    </div>
   );
 }
 

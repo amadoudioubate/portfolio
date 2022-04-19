@@ -27,16 +27,16 @@ function NavBar() {
 
     return (
         <nav className='nav'>
-            { (toggle || widthWindow > 991) && 
+            { (toggle || widthWindow > 1199) && 
                 <ul className="nav-list">
                     <li className="list-items">
                         <NavLink to="/" className={({isActive}) => isActive ? "active-link" : ""}>Acceuil</NavLink>
                     </li>
                     <li className="list-items">
-                        <NavLink to="/skills" className={({isActive}) => isActive ? "active-link" : ""}>À propos de moi</NavLink>
+                        <NavLink to="/a-propos-de-moi" className={({isActive}) => isActive ? "active-link" : ""}>À propos de moi</NavLink>
                     </li>
                     <li className="list-items">
-                        <NavLink to="/services" className={({isActive}) => isActive ? "active-link" : ""}>Réalisations</NavLink>
+                        <NavLink to="/mes-realisations" className={({isActive}) => isActive ? "active-link" : ""}>Mes réalisations</NavLink>
                     </li>
                     <li className="list-items">
                         <NavLink to="/competences" className={({isActive}) => isActive ? "active-link" : ""}>Compétences</NavLink>
