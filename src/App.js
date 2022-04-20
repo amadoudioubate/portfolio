@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Home from './Pages/Home';
+import Page from './Pages/Page';
 import Loading from './Components/Loading/Loading';
 import Header from "./Components/Header/Header";
 import './App.css';
@@ -18,7 +18,7 @@ function App() {
     <div className='App'>
       <Header/>
       {
-        isLoading ? <Loading/> : <Home />
+        isLoading ? <Loading/> : <Page />
       } 
     </div>
   );

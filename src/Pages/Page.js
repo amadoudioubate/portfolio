@@ -3,10 +3,10 @@ import Skills from "../Components/Skills/Skills";
 import Realization from "../Components/Realization/Realization";
 import Contact from "../Components/Contact/Contact";
 
-function Home() {
+function Page() {
 
     return (
-       <main className="container-home">
+       <main className="container-page">
            {/* <AboutMe />
            <Skills />
            <Realization />
@@ -15,4 +15,4 @@ function Home() {
     )
 } 
 
-export default Home;
+export default Page;
