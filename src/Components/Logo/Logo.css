@@ -1,35 +1,71 @@
-.container-logo {
+/*******************************************************/
+/*               PROPRIETES COMMUNES                   */
+/*******************************************************/
+
+.container-logo, .logo-initial, .initial {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 15px
 }
 
-.logo-initial {
-    height: 64px;
-    width: 64px;
-    line-height: 64px;
-    text-align: center;
-    border: 1px solid red;
-    border-radius: 50%;   
-}
 .person-name, .person-job {
     display: none;
 }
 
-.initial {
-    display: block;
-    height: 62px;
-    width: 62px;
-    background: green;
-    border-radius: 50%;
-    color: #efefef;
-    font-size: 2.2rem;
-    text-shadow: 1px 3px 8px rgb(0 0 0 / 80%);
-    cursor: pointer;
+
+/*******************************************************/
+/*               FIN PROPRIETES COMMUNES               */
+/*******************************************************/
+
+.container-logo {
+    padding: 8px 32px;
 }
 
+.logo-initial {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: linear-gradient(45deg,rgb(156, 14, 156), midnightblue);
+    border: 2px solid;
+    border-radius: 50%;   
+}
+
+.initial {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    color: #efefef;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 1px 3px 8px rgb(0 0 0 / 80%);
+    cursor: pointer;
+    position: relative;
+}
+
+/*******************************************************/
+/*          ECRAN SUPERIEUR OU EGAL À 768px            */
+/*******************************************************/
 @media screen and (min-width: 768px) {
+    
+    .initial::after {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        opacity: 0;
+        background-image: url('../../assets/images/amadou.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all 0.6s linear;
+    }
+    .initial:hover::after {
+        opacity: 1;
+        transform: rotateY(180deg)
+    }
     .logo-person {
         margin-left: 1rem;
     }
@@ -37,11 +73,14 @@
         display: block;
     }
     .person-name {
-        font-size: 24px;
-        color: #fff;
+        font-size: 20px;
+        color: #f9f5ff;
         cursor: pointer;
     }
 
+    .person-job {
+        color: #2ac64e;
+    }
     .person-name::after {
         content: "";
         display: block;
@@ -57,3 +96,7 @@
         width: 100%;
     }
 }
+
+/*******************************************************/
+/*       FIN ECRAN SUPERIEUR OU EGAL À 768px           */
+/*******************************************************/
