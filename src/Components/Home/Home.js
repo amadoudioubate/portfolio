@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
 
 function Home() {
   return (
-    <div className='container-home'>
+    <section className='container-home'>
         Acceuil
-    </div>
+    </section>
   )
 }
 
-export default Home
+export default Home;
