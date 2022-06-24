@@ -1,0 +1,198 @@
+.navigation {
+    /* background: #fff; */
+    display: flex;
+    height: 80px;
+    padding: 0 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #0b6575;
+}
+
+/*partie gauche*/
+.navigation-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-initial {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg,
+    rgb(156, 14, 156), midnightblue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.initial-text {
+    /* font-size: 2.435rem; */
+    font-size: 2rem;
+    text-shadow: 1px 3px 8px rgb(0 0 0 / 80%);
+}
+
+.man-name {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #f9f5ff;
+}
+.man-job {
+    color: #aaa;
+}
+
+@media (max-width: 280px) {
+    .logo-man {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-initial::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-image: url('../../assets/images/amadou.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: scale(0);
+        transition: transform 0.5s ease-in;
+    }
+
+    .logo-initial:hover::after {
+        transform: scale(1);
+    }
+}
+
+/* Fin partie gauche */
+
+/**** Liste items ****/
+
+.navigation-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 200px;
+    background: #0b6575;
+    position: absolute;
+    /* top: 70px; */
+    top: 80px;
+    left: 0;
+}
+
+.list-items:nth-child(1) {
+    border-top: 1px solid #f9f5ff;
+}
+
+.list-items {
+    border-bottom: 1px solid #f9f5ff;
+    width: 100%;
+    height: 80px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items a {
+    color: #f9f5ff;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation-list {
+        width: 50%;
+        right: 0;
+        left: auto;
+    }
+}
+/**** Fin liste items ****/
+
+
+/**** Icon toggle *****/
+.navigation-icon {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+}
+/**** Fin icon Toggle ****/
+
+@media (min-width: 992px) {
+
+    .man-name {
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+
+    .man-name::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 2px;
+        margin: 5px auto 0 auto;
+        border-radius: 2px;
+        background: #aaa;
+        transition: width 0.2s ease-in-out;
+    }
+    
+    .man-name:hover::after {
+        width: 100%;
+    }
+    .navigation-list {
+        position: static;
+        /* height: 70px; */
+        height: 80px;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 70%;
+    } 
+    .list-items:nth-child(1) {
+        border-top: 0;
+    }
+    .list-items {
+        margin-right: 1rem; 
+        border-bottom: 0;
+        width: auto;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .list-items a::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 2px;
+        margin: 5px auto 0 auto;
+        border-radius: 2px;
+        background: #aaa;
+        transition: width 0.2s ease-in-out;
+    }
+    .list-items a:hover::after {
+        width: 100%;
+    }
+    .navigation-icon {
+        display: none;
+    }
+}

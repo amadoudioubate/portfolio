@@ -1,0 +1,22 @@
+.loading {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
