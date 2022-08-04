@@ -1,6 +1,6 @@
 import React from 'react';
 import './OpeningPage.css'
-import Photo from '../../assets/images/amadou-dioubate.jpg'
+import Photo from '../../assets/images/dioubate_amadou.jpg'
 
 function OpeningPage() {
   return (

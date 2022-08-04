@@ -1,5 +1,4 @@
 .navigation {
-    /* background: #fff; */
     display: flex;
     height: 80px;
     padding: 0 1rem;
@@ -59,7 +58,7 @@
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        background-image: url('../../assets/images/amadou.jpg');
+        background-image: url('../../assets/images/amadou-dioubate.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         transform: scale(0);

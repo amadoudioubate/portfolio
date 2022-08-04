@@ -5,7 +5,7 @@ import './Realizations.css';
 
 function Realizations() {
   const [dataProject, setDataProject] = useState(data)
-  // console.log(dataProject);
+  
   console.log(setDataProject);
   
   return (
