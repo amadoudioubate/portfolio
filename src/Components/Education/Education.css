@@ -1,0 +1,109 @@
+.education {
+    display: flex;
+}
+
+/****** Début education graduate ******/
+.education_graduate {
+    flex-basis: 49%;
+    border-right: 10px solid #cbb26a;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.graduate_title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.graduate_title h4 {
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+    color: #fff;
+}
+
+.graduate_content {
+    margin-right: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.content_diploma h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #cbb26a;
+}
+.content_year, .content_diploma span {
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .education {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .education_graduate {
+        width: 100%;
+        border: none;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .graduate_title {
+        justify-content: center;
+    }
+
+    .graduate_content {
+        margin-right: 0;
+    }
+}
+
+/****** Fin education graduate ******/
+
+.education_certificate {
+    flex-basis: 49%;
+}
+
+.certificate_title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.certificate_title h4 {
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+    color: #fff;
+}
+
+.content_cert {
+    margin-bottom: 1.3rem;
+    list-style: none;
+}
+
+.content_cert h5 {
+    font-size: 16px;
+    color: #cbb26a;
+    text-transform: uppercase;
+}
+
+.content_cert span {
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .education_certificate {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .certificate_title {
+        justify-content: center;
+    }
+}

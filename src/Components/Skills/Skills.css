@@ -1,0 +1,40 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills_card2, .skills_card1 {
+   margin-bottom: 2rem;
+   text-align: center;
+   border-bottom: 10px solid rgb(203, 178, 106);
+   border-radius: 10px;
+   height: auto;
+   font-size: 57px;
+}
+.skills_card2 {
+    width: 300px;
+}
+.skills_card1 {
+    width: 200px;
+}
+@media screen and (min-width: 400px) {
+    .skills_card1,.skills_card2 {
+        margin-right: 1rem;
+    }
+}
+.card_title {
+    font-size: 1.5rem;
+}
+.card_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content_icon h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+.card_title, .content_icon h6 {
+    text-transform: uppercase;
+}

@@ -29,8 +29,8 @@ function NavBar() {
                 <span className="initial-text">AD</span>
             </div>
             <div className="logo-man">
-                <h1 className="man-name">Amadou Dioubaté</h1> 
-                <span className="man-job">Dévloppeur Web</span>
+                <h2 className="man-name">Amadou Dioubaté</h2> 
+                <span className="man-job">Développeur Web</span>
             </div>
         </div>
         { (toggle || widthWindow > 991) && 
@@ -39,7 +39,7 @@ function NavBar() {
                     <a href="#"></a>
                 </li> */}
                 <li className="list-items">
-                    <a href="#abt_me">À propos de moi</a>
+                    <a href="#about_me">À propos de moi</a>
                 </li>
                 <li className="list-items">
                     <a href="#my_project">Mes réalisations</a>

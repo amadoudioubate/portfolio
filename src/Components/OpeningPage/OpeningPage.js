@@ -1,6 +1,6 @@
 import React from 'react';
 import './OpeningPage.css'
-import Photo from '../../assets/images/amadou.jpg'
+import Photo from '../../assets/images/amadou-dioubate.jpg'
 
 function OpeningPage() {
   return (
@@ -12,7 +12,7 @@ function OpeningPage() {
             <div className='opening_left_morph'>
               <div className='morph_word'>Développeur Front End</div>
               <div className='morph_word'>Développeur Full Stack</div>
-              <div className='morph_word'>Web Design</div>
+              <div className='morph_word'>Intégrateur</div>
             </div>
             <p className='opening_left_desc'>Je crée des sites web interactifs et responsives.</p>
           </div>
@@ -30,4 +30,4 @@ function OpeningPage() {
   )
 }
 
-export default OpeningPage
+export default OpeningPage;

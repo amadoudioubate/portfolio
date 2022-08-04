@@ -5,18 +5,25 @@ import './Realizations.css';
 
 function Realizations() {
   const [dataProject, setDataProject] = useState(data)
-console.log(dataProject);
+  // console.log(dataProject);
   console.log(setDataProject);
+  
   return (
     <section className='realizations' id="my_project">
-      { dataProject.map((item,index) => {
-        return ( 
-          <Realization 
-            name={item.name}
-            key={index}
-          />
-        ) 
-      })}
+      <h2 className="realizations_title">Mes Réalisations</h2>
+      <div className="realizations_body">
+        { dataProject.map((item,index) => {
+          return ( 
+            <Realization 
+              name={item.name}
+              image={item.image}
+              url={item.url}
+              source={item.source}
+              key={index}
+            />
+          ) 
+        })}
+      </div>
     </section>
   );
 };

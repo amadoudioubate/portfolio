@@ -2,42 +2,48 @@
     {
         "id": 1,
         "name": "Reservia",
-        "langages": ["Html", "Css"],
+        "image": "reservia.jpg",
+        "langages": ["FaHtml5", "FaCss3", "FaGithub", "FaGitAlt"],
         "url": "https://amadoudioubate.github.io/Agence-de-voyage/",
         "source": "https://github.com/amadoudioubate/Agence-de-voyage"
     },
     {
         "id": 2,
         "name": "Ohmyfood",
-        "langages": ["Html", "Css"],
+        "image": "ohmyfood.jpg",
+        "langages": ["FaHtml5", "FaCss3", "FaSass", "FaGithub", "FaGitAlt"],
         "url": "https://amadoudioubate.github.io/Ohmyfood/",
         "source": "https://github.com/amadoudioubate/Ohmyfood"
     },
     {
         "id": 3,
         "name": "Chouette agence",
-        "langages": ["Html", "Css", "SEO"],
+        "image": "lachouetteagence.jpg",
+        "langages": ["FaHtml5", "FaCss3", "FaBootstrap", "SEO", "FaGithub", "FaGitAlt"],
         "url": "https://amadoudioubate.github.io/La-chouette-agence/",
         "source": "https://github.com/amadoudioubate/La-chouette-agence"
     },
     {
         "id": 4,
         "name": "Kanap",
-        "langages": ["Html", "Css", "JavaScript"],
+        "image": "kanap.jpg",
+        "langages": ["FaHtml5", "FaCss3", "FaJsSquare", "FaGithub", "FaGitAlt"],
         "url": "",
         "source": "https://github.com/amadoudioubate/Kanap"
     },
     {
         "id": 5,
         "name": "Sauce piquante",
-        "langages": ["Html", "Css", "JavaScript", "Nodejs"],
+        "image": "saucepiquante.jpg",
+        "langages": ["FaHtml5", "FaCss3", "FaJsSquare", "FaNode", "FaNodeJs", "FaDatabase", "FaGithub", "FaGitAlt"],
         "url": "",
         "source": "https://github.com/amadoudioubate/P6-Sauce-Piquante"
     },
     {
         "id": 6,
         "name": "Groupomania",
-        "langages": ["React", "Css", "JavaScript", "Nodejs"],
+        "image": "groupomania.jpg",
+        "langages": ["FaHtml5", "FaCss3", "FaJsSquare", "FaNode", "FaNodeJs", "FaEnvira", "FaGithub", "FaGitAlt"],
         "url": "",
         "source": "https://github.com/amadoudioubate/P7-Groupomania/tree/master"
     }
