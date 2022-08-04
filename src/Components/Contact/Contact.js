@@ -37,18 +37,18 @@ function Contact() {
         
         <div className='form_group'>
           <label htmlFor='name'>Nom et prénom<span>*</span></label>
-          <input type="text" id="name" name='name' placeholder='Saisissez votre nom et prénom *' 
+          <input type="text" id="name" name='name' placeholder='Votre nom et prénom *' 
           onChange={(e) => setName(e.target.value)} value={name} required/>
         </div>
        
         <div className='form_group'>
           <label htmlFor='email'>Email<span>*</span></label>
-          <input type="email" id='email' name='email' placeholder='Saisissez votre e-mail *' 
+          <input type="email" id='email' name='email' placeholder='Votre e-mail *' 
           onChange={(e) => setEmail(e.target.value)} value={email} required/>
         </div>
         <div className="form_group">
           <label htmlFor="message">Message<span>*</span></label>
-          <textarea name="message" id="message" placeholder='Saisissez votre message *'
+          <textarea name="message" id="message" placeholder='Votre message *'
           onChange={(e) => setMessage(e.target.value)} value={message} required></textarea>
         </div>
         <div className='container_btn'>
