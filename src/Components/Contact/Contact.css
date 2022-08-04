@@ -1,12 +1,12 @@
 .contact {
-    background: #1a2421;
+    background: #121312;
     height: auto;
     width: 100%;
     padding: 4rem 1rem;
 }
 
 .contact_form {
-    background: #f1f1f1;
+    background: #fff;
     width: 60%;
     margin: 0 auto;
     padding: 1rem;
@@ -40,6 +40,7 @@
     width: 100%;
     font-size: 18px;
     border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
 }
 .form_group input {
     padding: 0.8rem;
@@ -49,7 +50,10 @@
     padding: 1.1rem;
     height: 150px;
 }
-
+.form_group input:focus, 
+.form_group textarea:focus {
+    border: 1px solid #4169E1;
+}
 .container_btn {
     text-align: center;
 }

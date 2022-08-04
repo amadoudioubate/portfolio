@@ -37,6 +37,11 @@
     width: 100%;
     margin-bottom: 1rem;
 }
+
+.opening_left_name {
+    display: inline;
+    color: #cbb26a;
+}
 .opening_left_morph {
     display: flex;
     justify-content: center;

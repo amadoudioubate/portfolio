@@ -7,8 +7,8 @@ function OpeningPage() {
     <section className='opening_container'>
       <div className='opening'>
           <div className='opening_left'>
-            Salut,<br/>
-            Je suis AMADOU,
+            Bonjour,<br/>
+            Moi c'est <h3 className='opening_left_name'>AMADOU</h3>,
             <div className='opening_left_morph'>
               <div className='morph_word'>Développeur Front End</div>
               <div className='morph_word'>Développeur Full Stack</div>
