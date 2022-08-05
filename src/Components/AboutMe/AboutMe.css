@@ -1,8 +1,9 @@
 .about {
-    background-color: #03030594;
-    background-image: url('../../assets/images/background-about6.jpg');
+    background-color: #252525e8;
+    background-image: url('../../assets/images/background-about.jpeg');
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     width: 100%;
     padding: 3rem;
 }
