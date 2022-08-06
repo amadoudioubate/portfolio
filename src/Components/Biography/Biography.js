@@ -1,8 +1,7 @@
 import React from 'react';
 import Dev from '../../assets/images/dev-en-activite.jpg';
-import Cv from '../../assets/cv/cv-amadou-dioubate.pdf';
-import './Biography.css';
-
+import Cv from '../../assets/cv/cv-dev-web-amadou-dioubate.pdf';
+import './Biography.css'; 
 function Biography() {
   return (
     <section className='container_bio'>

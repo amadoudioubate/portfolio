@@ -12,13 +12,15 @@ function Realizations() {
     <section className='realizations' id="my_project">
       <h2 className="realizations_title">Mes Réalisations</h2>
       <div className="realizations_body">
-        { dataProject.map((item,index) => {
+        { dataProject.map((projet,index) => {
           return ( 
             <Realization 
-              name={item.name}
-              image={item.image}
-              url={item.url}
-              source={item.source}
+              name={projet.name}
+              image={projet.image}
+              description={projet.description}
+              langages={projet.langages}
+              url={projet.url}
+              source={projet.source}
               key={index}
             />
           ) 
