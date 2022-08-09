@@ -3,8 +3,8 @@
         "id": 1,
         "name": "Reservia",
         "image": "reservia.jpg",
-        "description": "Un site développé en mobile first, qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-        "langages": ["html5.png", "css3.png", "github.png", "git.png"],
+        "description": "Ce projet est un prototype d'un site web responsive de réservation d'hôtels en ligne, développé en mobile first.",
+        "langages": ["html5.png", "css3.png"],
         "url": "https://amadoudioubate.github.io/Agence-de-voyage/",
         "source": "https://github.com/amadoudioubate/Agence-de-voyage"
     },
@@ -12,8 +12,8 @@
         "id": 2,
         "name": "Ohmyfood",
         "image": "ohmyfood.jpg",
-        "description": "Un site qui répertorie les menus de restaurants gastronomiques. Les clients pourront composer le menu de leur repas.",
-        "langages": ["html5.png", "css3.png", "sass.png", "github.png", "git.png"],
+        "description": "Ce site statique répertorie les menus de restaurants gastronomiques. Les clients pourront composer le menu de leur repas.",
+        "langages": ["html5.png", "css3.png", "sass.png"],
         "url": "https://amadoudioubate.github.io/Ohmyfood/",
         "source": "https://github.com/amadoudioubate/Ohmyfood"
     },
@@ -22,7 +22,7 @@
         "name": "Chouette agence",
         "image": "lachouetteagence.jpg",
         "description": "Maintenance du site de la chouette agence. Analyse de l’état actuel de SEO du site fourni, puis, amélioration du SEO du site.",
-        "langages": ["html5.png", "css3.png", "bootstrap.png", "github.png", "git.png"],
+        "langages": ["html5.png", "css3.png", "bootstrap.png"],
         "url": "https://amadoudioubate.github.io/La-chouette-agence/",
         "source": "https://github.com/amadoudioubate/La-chouette-agence"
     },
@@ -31,7 +31,7 @@
         "name": "Kanap",
         "image": "kanap.jpg",
         "description": "Une plateforme E-commerce pour une marque de canapés pour vendre ses produits sur Internet.",
-        "langages": ["html5.png", "css3.png", "js.png", "github.png", "git.png"],
+        "langages": ["html5.png", "css3.png", "js.png"],
         "url": "",
         "source": "https://github.com/amadoudioubate/Kanap"
     },
@@ -40,7 +40,7 @@
         "name": "Sauce piquante",
         "image": "saucepiquante.jpg",
         "description": "Une API sécurisée pour une application web de critique des sauces piquantes appelée « Hot Takes ».",
-        "langages": ["html5.png", "css3.png", "js.png", "nodejs.png", "expressjs.png", "mongodb.png", "github.png", "git.png"],
+        "langages": ["html5.png", "css3.png", "js.png", "nodejs.png", "expressjs.png", "mongodb.png"],
         "url": "",
         "source": "https://github.com/amadoudioubate/P6-Sauce-Piquante"
     },
@@ -49,7 +49,7 @@
         "name": "Groupomania",
         "image": "groupomania.jpg",
         "description": "Un réseau social interne pour les employés de Groupomania. Le but de cet outil est de faciliter les interactions entre collègues.",
-        "langages": ["html5.png", "css3.png", "js.png", "nodejs.png", "expressjs.png", "mysql.png", "github.png", "git.png"],
+        "langages": ["html5.png", "css3.png", "js.png", "nodejs.png", "expressjs.png", "mysql.png"],
         "url": "",
         "source": "https://github.com/amadoudioubate/P7-Groupomania/tree/master"
     }

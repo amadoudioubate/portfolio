@@ -7,7 +7,6 @@
     box-shadow: 20px 1px 50px rgb(0 0 0 / 50%);
     padding: 1rem;
     margin-bottom: 25px;   
-    /* cursor: pointer;   */
 }
 
 .realization_img {
@@ -53,9 +52,16 @@
 }
 
 .icon_lang {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     margin-right: 0.8rem;
+}
+
+@media screen and (max-width:420px) {
+    .icon_lang {
+        width: 32px;
+        height: 32px;
+    }
 }
 
 .realization_footer {
@@ -63,13 +69,18 @@
     justify-content: space-around;
 }
 
-.realization_footer a {
+.footer_link {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f1f1f1;
     padding: 0.6rem 0.5rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #cbb26a;
+    position: relative;
 }
+
 
 .footer_fa_arrow_right {
     margin-left: 0.5rem;
