@@ -16,6 +16,7 @@ function Realizations() {
           return ( 
             <Realization 
               name={projet.name}
+              title={projet.title}
               image={projet.image}
               description={projet.description}
               langages={projet.langages}

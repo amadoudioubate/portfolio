@@ -9,7 +9,8 @@ function Realisation(props) {
       <div className="realization_img">
         <img src={props.image} alt="pic associé au projet" />
       </div>
-      <h3 className='realization_title'>{props.name}</h3>
+      <h3 className='realization_name'>{props.name}</h3>
+      <h4 className='realization_title'>{props.title}</h4>
       <p className="realization_description">
         {props.description} 
       </p>
@@ -24,17 +25,9 @@ function Realisation(props) {
       <div className="realization_footer">
         <a href={props.url} target="_blank" rel="noopener noreferrer" className='footer_link'>
           Visitez le site <FaArrowRight className='footer_fa_arrow_right'/>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
         </a>
         <a href={props.source} target="_blank" rel="noopener noreferrer" className='footer_link'>
           Code source <FaArrowRight className='footer_fa_arrow_right'/>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
         </a>
       </div>
       

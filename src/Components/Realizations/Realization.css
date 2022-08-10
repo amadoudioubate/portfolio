@@ -25,12 +25,17 @@
     border-radius: 15px;
 }
 
-.realization_title {
+.realization_name {
     text-transform: uppercase;
     color: #cbb26a;
     text-align: center;
+}
+
+.realization_title {
+    color: #cbb26a;
     margin-bottom: 1rem;
 }
+
 .realization_description {
     color: #fff;
     margin-bottom: 1rem;
@@ -67,6 +72,7 @@
 .realization_footer {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0.6rem;
 }
 
 .footer_link {
