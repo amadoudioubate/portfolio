@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Ohmyfood",
         "image": "ohmyfood.jpg",
-        "description": "Ce site statique répertorie les menus de restaurants gastronomiques. Les clients pourront composer le menu de leur repas.",
+        "description": "Ce site répertorie les menus de restaurants gastronomiques. Les clients pourront composer le menu de leur repas.",
         "langages": ["html5.png", "css3.png", "sass.png"],
         "url": "https://amadoudioubate.github.io/Ohmyfood/",
         "source": "https://github.com/amadoudioubate/Ohmyfood"
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "Kanap",
         "image": "kanap.jpg",
-        "description": "Une plateforme E-commerce pour une marque de canapés pour vendre ses produits sur Internet.",
+        "description": "Une plateforme E-commerce pour une marque de canapés pour vendre ses produits sur internet.",
         "langages": ["html5.png", "css3.png", "js.png"],
         "url": "",
         "source": "https://github.com/amadoudioubate/Kanap"
