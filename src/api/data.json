@@ -60,9 +60,20 @@
         "title": "Créez un réseau social d'entreprise",
         "image": "groupomania.jpg",
         "description": "Le projet consiste à construire un réseau social interne pour les employés de Groupomania. Le but de cet outil est de faciliter les interactions entre collègues.",
-        "langages": ["html5.png", "css3.png", "js.png", "nodejs.png", "expressjs.png", "mysql.png", "git.png"],
+        "langages": ["html5.png", "css3.png", "js.png", "react.png", "nodejs.png", "expressjs.png", "mysql.png", "git.png"],
         "isUrl": false,
         "url": "",
         "source": "https://github.com/amadoudioubate/P7-Groupomania/tree/master"
+    },
+    {
+        "id": 7,
+        "name": "portfolio", 
+        "title": "Créez son portfolio personnel",
+        "image": "portfolio.png",
+        "description": "Le projet personnel consiste à créer mon porfolio pour montrer mon apprentissage, mes expériences,  mes réalisations et mes compétences.",
+        "langages": ["html5.png", "css3.png", "js.png", "react.png", "git.png"],
+        "isUrl": false,
+        "url": "https://amadoudioubate.netlify.app/",
+        "source": "https://github.com/amadoudioubate/portfolio"
     }
 ]

@@ -58,15 +58,15 @@
 }
 
 .icon_lang {
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     margin-right: 0.8rem;
 }
 
 @media screen and (max-width:420px) {
     .icon_lang {
-        width: 32px;
-        height: 32px;
+        width: 28px;
+        height: 28px;
     }
 }
 
