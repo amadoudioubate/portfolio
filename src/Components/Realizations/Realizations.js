@@ -20,6 +20,7 @@ function Realizations() {
               image={projet.image}
               description={projet.description}
               langages={projet.langages}
+              isUrl={projet.isUrl}
               url={projet.url}
               source={projet.source}
               key={index}

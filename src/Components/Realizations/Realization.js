@@ -23,9 +23,13 @@ function Realisation(props) {
         </div>
       </div>
       <div className="realization_footer">
-        <a href={props.url} target="_blank" rel="noopener noreferrer" className='footer_link'>
-          Visitez le site <FaArrowRight className='footer_fa_arrow_right'/>
-        </a>
+        {props.isUrl === false ? null
+          :
+          <a href={props.url} target="_blank" rel="noopener noreferrer" className='footer_link'>
+            Visitez le site <FaArrowRight className='footer_fa_arrow_right'/>
+          </a>
+        }
+        
         <a href={props.source} target="_blank" rel="noopener noreferrer" className='footer_link'>
           Code source <FaArrowRight className='footer_fa_arrow_right'/>
         </a>
